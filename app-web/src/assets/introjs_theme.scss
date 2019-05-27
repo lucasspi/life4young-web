@@ -1,0 +1,81 @@
+.introjs-tooltipbuttons {
+  text-align: center;
+}
+.introjs-button {
+  background-color: $green;
+  background-image: none;
+  text-shadow: none;
+  color: #FFF;
+  font-size: 18px;
+  padding: 10px 30px;
+  border: 0;
+  &:hover, &:active, &:focus {
+    color: #FFF;
+    background-color: $green;
+    background-image: none;
+  }
+  &.introjs-nextbutton {
+    border-radius: 5px;
+    &.introjs-disabled {
+      display: none;
+    }
+  }
+  &.introjs-skipbutton {
+    display: none;
+  }
+  &.introjs-prevbutton {
+    display: none;
+  }
+  &.introjs-donebutton {
+    display: inline-block;
+  }
+}
+.introjs-helperLayer {
+  background-color: transparent;
+}
+
+
+
+
+.introjs-tooltip {
+  @include pulse();
+  border: 1px solid $green;
+}
+.introjs-arrow {
+  &.top {
+    border-bottom-color:$green;
+  }
+  &.top-right {
+    border-bottom-color:$green;
+  }
+  &.top-middle {
+    border-bottom-color:$green;
+  }
+  &.right {
+    border-left-color:$green;
+  }
+  &.right-bottom {
+    border-left-color:$green;
+  }
+  &.bottom {
+    border-top-color:$green;
+  }
+  &.bottom-right {
+    border-top-color:$green;
+  }
+  &.bottom-middle {
+    border-top-color:$green;
+  }
+  &.left {
+    border-right-color:$green;
+  }
+  &.left-bottom {
+    border-right-color:$green;
+  }
+}
+.introjs-fixedTooltip {
+  position: absolute;
+}
+.introjs-fixParent {
+  position: static;
+}

@@ -1,0 +1,365 @@
+{
+  "app": {
+    "warnings": {
+      "password_not_set": "<strong>Verifique seu e-mail</strong> para criar uma senha para acessar a plataforma",
+      "resend_email_txt": "(Não recebeu nosso e-mail? Clique aqui)"
+    }
+  },
+  "login": {
+    "fields": {
+      "your_email": "Seu e-mail",
+      "your_password": "Sua senha",
+      "remember_me": "Lembrar-me"
+    },
+    "buttons": {
+      "sign_in": "Entrar",
+      "forgot_my_password": "Esqueci minha senha",
+      "sign_up": "Cadastre-se"
+    },
+    "results": {
+      "unknown_error": "Não foi possível realizar o processo de login. Tente novamente mais tarde.",
+      "title_unknown_error": "Erro!"
+    },
+    "errors": {
+      "fix_form_errors": "Conserte os seguintes erros com os dados enviados:",
+      "fix_form_errors_title": "Erro!",
+      "recaptcha_not_filled": "É obrigatório a verificação via recaptcha.",
+      "phone_not_valid": "Digite um telefone válido (com DDD - código de longa distância, exemplo: 011 3232 3232)"
+    }
+  },
+  "forgot_password": {
+    "fields": {
+      "your_email": "Seu e-mail"
+    },
+    "buttons": {
+      "sign_in": "Fazer login",
+      "recover_my_password": "Recuperar minha senha"
+    },
+    "results": {
+      "password_reseted_title": "Sucesso!",
+      "password_reseted": "Dentro de instantes você receberá um e-mail contendo instruções de como resetar sua senha. Lembre-se de verificar a caixa de spam."
+    }
+  },
+  "reset_password": {
+    "fields": {
+      "your_email": "Seu e-mail",
+      "your_password": "Sua nova senha",
+      "your_password_again": "Confirme sua nova senha"
+    },
+    "buttons": {
+      "reset_my_password": "Re-setar minha senha",
+      "sign_in": "Fazer login"
+    },
+    "errors": {
+      "invalid_reset_token_title": "Erro!",
+      "invalid_reset_token": "O token de recuperação de senha especificado é inválido ou expirou. Por gentileza, solicite novamente o e-mail de Esqueci minha senha."
+    },
+    "results": {
+      "password_reseted_title": "Sucesso!",
+      "password_reseted": "Sua senha foi resetada com sucesso. Você será redirecionado(a) ao sistema"
+    }
+  },
+  "error_guide": {
+    "status_title": {
+      "http-1": "Erro desconhecido",
+      "http401": "Acesso negado",
+      "http403": "Acesso negado",
+      "http404": "Página não encontrada"
+    },
+    "status_message": {
+      "http-1": "Aconteceu um erro desconhecido, nossa equipe já foi notificada e está trabalhando para resolvê-lo o mais rápido possível.",
+      "http401": "Para acessar este recurso é necessário estar logado.",
+      "http403": "Você está vendo esta tela de erro porque não tem permissão para visualizar a página que tentou acessar.",
+      "http404": "Ops! Não encontramos a página que você está procurando."
+    }
+  },
+  "first_login": {
+    "fields": {
+      "your_email": "Seu e-mail",
+      "caption": "Olá, essa é a primeira vez que você acessa nosso sistema. Primeiro, você precisar criar uma nova senha:",
+      "your_password": "Digite uma senha que deseja utilizar",
+      "your_password_again": "Digite novamente a mesma senha"
+    },
+    "buttons": {
+      "set_my_password": "Criar senha",
+      "sign_in": "Voltar"
+    },
+    "errors": {
+      "invalid_reset_token_title": "Erro!",
+      "invalid_reset_token": "Esse link de primeiro login é inválido ou expirou. Por gentileza, recupere sua senha através da opção Esqueci minha senha."
+    },
+    "results": {
+      "password_reseted_title": "Bem-vindo!",
+      "password_reseted": "Sua senha foi setada com sucesso. Você será redirecionado(a) ao sistema"
+    }
+  },
+  "dashboard": {
+    "label-total": "Resultado de todos os membros",
+    "leads_chart": {
+      "title": "Total de leads gerados pelos membros"
+    }
+  },
+  "projects": {
+    "title": "Projetos",
+    "subtitle": "Em breve, você vai encontrar uma forma de transformar seus projetos em um grande produto."
+  },
+  "websites": {
+    "title": "Websites",
+    "subtitle": "Em breve uma maneira de você criar seu portfolio ou o site da sua empresa."
+  },
+  "groups": {
+    "title": "Grupos",
+    "subtitle": "Em breve uma área de membros."
+  },
+  "instagram": {
+    "subtitle": "Configure seu perfil de instagram e acompanhe seu crescimento.",
+    "profile-label": "Perfil: ",
+    "status-label": "Status: ",
+    "status-waiting-message": "Pronto! Agora é só aguardar nossa equipe configurar seu perfil em nossa ferramenta de crescimento. Esse processo pode levar até 1 dia útil.",
+    "form": {
+      "instruction": "Detectamos que você ainda não configurou seu perfil de Instagram para crescê-lo. Digite abaixo os dados para acesso, não se preocupe, seus dados serão criptografados e nenhuma pessoa terá acesso.",
+      "username": "Usuário",
+      "password": "Senha",
+      "password_confirmation": "Confirme sua senha",
+      "submit": "Adicionar perfil"
+    },
+    "errors": {
+      "syncError": "Ao tentarmos configurar a ferramenta para o seu perfil enfrentamos um problema. Será necessário que você revise os dados de acesso. Abaixo você encontra mais detalhes: "
+    },
+    "forgot-password": "Esqueceu sua senha?"
+  },
+  "profile": {
+    "email": "E-mail",
+    "current_password": "Senha atual",
+    "new_password": "Nova senha",
+    "new_password_confirmation": "Confirme sua nova senha",
+    "update": "Atualizar meus dados",
+    "cancel-subscription": {
+      "confirm": {
+        "title": "Tem certeza?",
+        "message": "<p>Tem certeza que deseja cancelar sua assinatura? Este processo é irreversível.</p>",
+        "btn-confirm": "Sim, cancelar :(",
+        "btn-cancel": "Não, quero ficar :)"
+      },
+      "result": {
+        "title": "Pronto!",
+        "message": "<p>Sua solicitação de cancelamento já está sendo processada. Dentro de alguns instantes você receberá um e-mail confirmando o cancelamento de seu plano.</p>"
+      },
+      "error": {
+        "title": "Erro",
+        "message": "<p>Não foi possível cancelar o seu plano, é possível que ele já tenha sido cancelado. Quaisquer dúvidas, por gentileza, entre em contato conosco através do menu Fale Conosco.</p>"
+      }
+    }
+  },
+  "identification-form": {
+    "instruction": "Oi! Que bom você por aqui :) Complete o formulário abaixo para se identificar e concluir o processo de cadastro!",
+    "forgot-password": "Esqueceu sua senha? Clique aqui.",
+    "fields": {
+      "email": "E-mail",
+      "email_confirmation": "seu@email.com",
+      "phone_typing": "(DDD) 912345678",
+      "name": "Nome",
+      "password": "Senha",
+      "password_confirmation": "Confirme sua senha",
+      "document_number": "apenas números",
+      "phone_number": "Número do seu telefone",
+      "phone_country_code": "+55",
+      "phone_local_code": "011"
+    },
+    "labels": {
+      "email": "E-mail",
+      "email_confirmation": "Confirme seu e-mail",
+      "phone_typing": "Digite o seu telefone com DDD",
+      "name": "Nome",
+      "document_number": "CPF/CNPJ",
+      "password": "Senha",
+      "password_confirmation": "Confirme sua senha",
+      "captcha_verification": "Verifique que você é humano",
+      "phone_number": "Telefone",
+      "phone_country_code": "DDI",
+      "phone_local_code": "DDD"
+    },
+    "submit": "Pronto!",
+    "cancel": "Voltar",
+    "next": "Continuar",
+    "new-user-instructions": "Complete seu cadastro preenchendo os campos abaixo:",
+    "existing-user-instructions": "Preencha sua senha abaixo para fazer login na sua conta:",
+    "signup": {
+      "success": "Pronto!",
+      "message": "Você foi cadastrado com sucesso. <strong>Por favor, cheque sua caixa de e-mail, você receberá um link para definir sua primeira senha.</strong>"
+    }
+  },
+  "address-form": {
+    "instruction": "Complete o formulário abaixo com seu endereço. É rápido, prometo!",
+    "fields": {
+      "type": "Tipo",
+      "address": "Endereço",
+      "number": "Número",
+      "complement": "Complemento",
+      "neighborhood": "Bairro/região",
+      "zipcode": "CEP",
+      "country_cca3_id": "País",
+      "state_postal_id": "Estado",
+      "city_id": "Cidade"
+    },
+    "placeholders": {
+      "type": "Selecione um tipo para este endereço",
+      "country_cca3_id": "Selecione o país que você reside",
+      "state_postal_id": "Selecione o estado que você reside",
+      "city_id": "Selecione a cidade em que você reside",
+      "address": "Rua da minha casa",
+      "number": "123",
+      "neighborhood": "Bairro/região",
+      "complement": "Apt. 101",
+      "zipcode": "12345-678"
+    },
+    "result": {
+      "title": "Pronto!",
+      "message": "Cadastro de endereço feito com sucesso"
+    },
+    "errors": {
+      "zipcode_not_found": "<p>O CEP especificado não foi encontrado.</p><p>Se você não sabe ou não consegue encontrar seu CEP <a href='http://www.buscacep.correios.com.br/' target='_blank'>clique aqui para buscá-lo no site dos correios</a>.</p>",
+      "zipcode_not_found_title": "CEP não encontrado"
+    },
+    "submit": "Continuar",
+    "search_zipcode": "Buscar"
+  },
+  "payment-form": {
+    "submit": "Iniciar assinatura",
+    "submit_with_trial": "Iniciar período de testes",
+    "submit-pay-with-cc": "Pagar com cartão de crédito",
+    "submit-pay-with-billet": "Gerar boleto",
+    "fields": {
+      "card_number": "Número do cartão",
+      "card_holder_name": "Nome do portador do cartão",
+      "card_cvv": "Código de segurança",
+      "card_expiration_date": "Data de vencimento",
+      "card_expiration_month": "Mês de vencimento",
+      "card_expiration_year": "Ano de vencimento"
+    },
+    "placeholders": {
+      "card_number": "0000 0000 0000 0000",
+      "card_holder_name": "Nome do portador",
+      "card_cvv": "CVV",
+      "card_expiration_date": "00/00",
+      "card_expiration_month": "MM",
+      "card_expiration_year": "AA"
+    },
+    "errors": {
+      "title": "Erro!",
+      "brand_unknown": "Número do cartão é inválido ou a bandeira não é suportada pelo gateway de pagamento.",
+      "card_cvv": "O código de segurança não é válido.",
+      "card_expiration_date": "A data de expiração não é válida.",
+      "card_expiration_month": "O mês de expiração do cartão não é válido.",
+      "card_expiration_year": "O ano de expiração do cartão não é válido.",
+      "cant_check_credit_card": "<p>Não foi possível validar o cartão cadastrado. Por favor, verifique com o banco se há algum bloqueio em seu cartão.</p>",
+      "billet_error_msg": "<p><strong>Não foi possível gerar o boleto</strong></p><p>Mais detalhes dos erros:</p><p>{msg}</p>",
+      "paypal_error_msg": "<p><strong>Não foi possível gerar a cobrança via PayPal</strong></p><p>Mais detalhes dos erros:</p><p>{msg}</p>",
+      "credit_card_error_msg": "<p><strong>Não foi possível iniciar o processamento do seu pedido</strong></p><p>Mais detalhes dos erros:</p><p>{msg}</p>",
+      "update_phone_error_msg": "<p><strong>Não foi possível atualizar o telefone cadastrado em sua conta.</strong></p><p>Mais detalhes dos erros:</p><p>{msg}</p>"
+    },
+    "result": {
+      "title": "Pronto!",
+      "message": "Cartão cadastrado com sucesso!"
+    },
+    "secure_label": "Site seguro, compra protegida.",
+    "title": "Este é o último passo, <strong>é rápido e seguro.</strong>",
+    "title-trial": "Não se preocupe, <strong>você não será cobrado</strong>",
+    "title-trial-ends-at": "antes de: ",
+    "subtitle": "Selecione um método de pagamento de sua preferência.",
+    "subtitle-trial": "Para confirmar seu cadastro, selecione um método de pagamento de sua preferência.",
+    "credit-card": {
+      "title": "Cartão de crédito",
+      "subtitle": "Informe os dados do seu cartão de crédito"
+    },
+    "billet": {
+      "title": "Boleto",
+      "subtitle": "Para pagamentos via boleto, <strong class='has-text-grey'>o processamento pode levar até 1 dia útil após o pagamento do boleto.</strong>",
+      "confirm": "O boleto será gerado assim que você confirmar abaixo"
+    },
+    "paypal": {
+      "title": "Quase lá!",
+      "subtitle": "Preencha abaixo o seu telefone, e clique em iniciar assinatura..."
+    },
+    "advise": {
+      "p1": "Ao se cadastrar você concorda com os <a href='{terms_url}'>Termos de uso</a>, <a href='{terms2_url}'>Termos de compra e política de arrependimento</a>, e declara ter mais de 18 anos.",
+      "p2": "Cancele quando quiser durante o período de utilização gratuita e você não será cobrado. Para cancelar, acesse sua Conta online e clique em <strong  class='has-text-grey'>Cancelar assinatura</strong>. A {publisher_name} automaticamente dará continuidade à sua assinatura {product_name} quando seu período de utilização gratuita terminar, e começará a cobrar o preço da assinatura (atualmente {product_price}) da sua forma de pagamento até você cancelar. Não há reembolsos ou créditos por meses parciais."
+    }
+  },
+  "contact-form": {
+    "title": "Entre em contato conosco",
+    "description": "Para dúvidas, reclamações e/ou sugestões, utilize o campo abaixo para entrar em contato conosco. <strong>Responderemos o mais rápido possível via email 👊👊</strong>",
+    "placeholders": {
+      "message": "Digite aqui a mensagem que deseja nos enviar..."
+    },
+    "submit": "Enviar minha mensagem",
+    "result": {
+      "title": "Pronto!",
+      "message": "<p>Sua mensagem foi enviada com sucesso!</p><p>Nós responderemos ela o mais rápido possível.</p>"
+    }
+  },
+  "welcome-modal": {
+    "title": "<strong>Bem-vindo(a),</strong> {user_name}!",
+    "description": "Antes de começar, vou te mostrar como a navegação na plataforma é <strong>simples, vamos começar nosso tour?</strong>",
+    "btn-start": "Vamos lá!"
+  },
+  "email-warning-modal": {
+    "title": "<strong>Pronto,</strong> {user_name}!",
+    "description": "<p>Agora que você já sabe como usar nossa plataforma, nós enviamos um e-mail para que você possa criar uma senha para acessar.</p><p><strong>Verifique sua caixa de entrada e caso não localize nosso e-mail de boas vindas, verifique a caixa de spam também.</strong> Nele você encontrará um link Comece aqui para setar sua senha.</p>",
+    "btn-start": "Ok, vou verificar meu e-mail"
+  },
+  "resend-email-alert": {
+    "confirm": {
+      "title": "Tem certeza?",
+      "message": "<p>Tem certeza que deseja reenviar o e-mail? <strong>Lembre-se de verificar a caixa de spam.</strong></p>",
+      "btn-confirm": "Sim, tenho certeza",
+      "btn-cancel": "Cancelar"
+    },
+    "result": {
+      "title": "Pronto!",
+      "message": "<p>Pronto, o e-mail foi reenviado. <strong>Verifique sua caixa de entrada e caso não encontre, verifique também a caixa de spam.</strong></p>"
+    },
+    "error": {
+      "title": "Erro",
+      "message": "<p>Não foi possível reenviar o e-mail. {error_msg}</p>"
+    }
+  },
+  "countdown": {
+    "years": "anos",
+    "months": "mêses",
+    "days": "dias",
+    "hours": "horas",
+    "minutes": "minutos",
+    "seconds": "segundos"
+  },
+  "checkout-page": {
+    "paypal": {
+      "will-be-redirected": {
+        "title": "Quase lá!",
+        "message": "Aguarde enquanto redirecionamos você ao PayPal..."
+      },
+      "express-link-not-found": {
+        "title": "Erro!",
+        "message": "Não foi possível gerar a cobrança no PayPal. Por favor, tente novamente."
+      }
+    }
+  },
+  "lead-modal": {
+    "exit": {
+      "title": "Hey!<br /> Tenho um <strong>curso grátis</strong> para <strong>você!</strong>",
+      "description": "Nós preparamos um curso de <strong>Conceitos em Design,</strong> onde aprenderá sobre tipografia, identidade visual e muito mais!",
+      "btn-store": "Registrar"
+    },
+    "mobile": {
+      "title": "PARA TER<br /> ACESSO É SIMPLES!",
+      "description": "",
+      "btn-store": "Cadastre-se agora"
+    },
+    "labels": {
+      "email": "Insira seu e-mail para receber o <strong>cupom de 100% de desconto</strong>"
+    },
+    "fields": {
+      "email": "seu@email.com"
+    }
+  }
+}

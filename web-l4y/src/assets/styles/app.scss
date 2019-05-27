@@ -1,0 +1,56 @@
+@import '~bootstrap/scss/bootstrap';
+@import '~bootstrap/scss/bootstrap-grid';
+@import '~bootstrap/scss/bootstrap-reboot';
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+
+
+/* ======== Cores padroes L4Y*/
+$primary: #224189;
+$secondary: #faa503;
+$grey: #cccccc;
+$white: white;
+$black: #333333;
+
+/* ======== Cores Alternativas*/
+$vermelho: #e83749;
+$laranja: #e36855;
+$amarelo: #f5bf03;
+$verde: #a5d146;
+$azul: #092333;
+$azul-claro: #3cd1de;
+$roxo: #6c35b2;
+$rosa: #f3c1ad;
+$cinza-claro: #eee;
+$dourado: #f1af08;
+//$green:        hsl(141, 71%,  48%);
+
+///* ======== Setting class L4Y Colors*/
+.color-primary{
+  color: $primary;
+}
+.color-secondary{
+  color: $secondary;
+}
+.color-gray{
+  color: $grey;
+}
+.color-white{
+  color: $white;
+}
+.color-black{
+  color: $black;
+}
+
+//FONT-WEIGHTS
+
+.font-light{
+  font-weight: 300;
+}
+.font-normal{
+  font-weight: 400;
+}
+.font-bold {
+  font-weight: bold;
+}
